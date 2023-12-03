@@ -1,0 +1,35 @@
+:root {
+  color-scheme: dark light;
+  color: rgba(255, 255, 255, 0.95);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  place-content: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: xx-large;
+  text-transform: capitalize;
+}
+
+.left-container {
+  display: none;
+  width: 20vw;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  padding-right: 20px;
+}
+
+.right-container {
+  display: none;
+  width: 50vw;
+  min-width: min-content;
+}
+
+strong {
+  display: none;
+}
